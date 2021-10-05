@@ -92,14 +92,6 @@ $ easy_install git+https://github.com/app-generator/django-admin-volt.git
     )
 ```
 
-* Create database tables:
-
-```bash
-$ python manage.py migrate admin_volt
-$ # or
-$ python manage.py syncdb
-```
-
 * Collect static if you are in production environment:
 
 ```bash
