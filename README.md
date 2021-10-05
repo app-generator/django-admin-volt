@@ -112,15 +112,15 @@ $ python manage.py collectstatic
 
 ## Screenshots
 
-![Django Admin Volt - Main Django Dashboard screen.](https://raw.githubusercontent.com/app-generator/django-admin-black/main/media/django-admin-black-screen.png)
+![Django Admin Volt - Main Django Dashboard screen.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_1.png)
 
 <br>
 
-![Django Admin Volt - Add user screen.](https://raw.githubusercontent.com/app-generator/django-admin-black/main/media/django-admin-black-screen-add-user.png)
+![Django Admin Volt - Add user screen.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_2.png)
 
 <br>
 
-![Django Admin Volt - Edit user permissions.](https://raw.githubusercontent.com/app-generator/django-admin-black/main/media/django-admin-black-screen-edit-permissions.png)
+![Django Admin Volt - Edit user permissions.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_3.png)
 
 <br>
 
