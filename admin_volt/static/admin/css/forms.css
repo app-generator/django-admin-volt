@@ -454,7 +454,7 @@ body.popup .submit-row {
 .inline-group .tabular td.original p {
     position: absolute;
     right: 0;
-    height: 1.1em;
+    /*height: 1.1em;*/
     /*padding: 2px 9px;*/
     overflow: hidden;
     font-size: 12px;
@@ -477,7 +477,7 @@ body.popup .submit-row {
 .inline-group div.add-row,
 .inline-group .tabular tr.add-row td {
     color: #666;
-    background: #292c44;
+    background: #f2f4f6;
     padding: 8px 10px;
     /*border-bottom: 1px solid #eee;*/
 }

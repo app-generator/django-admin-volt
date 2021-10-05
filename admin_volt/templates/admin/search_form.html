@@ -3,17 +3,19 @@
     <div class="{{ direction.panel }}">
         <form id="changelist-search" method="get">
             <div class="row">
-                <div class="col-md-4 pr-md-1">
-                    <div class="form-group">
-                        <input type="text" class="form-control" size="40" name="{{ search_var }}" value="{{ cl.query }}" id="searchbar" autofocus>
-                    </div>
+                <div class="input-group me-2 me-lg-3 fmxw-400">
+                    <span class="input-group-text">
+                      <svg class="icon icon-xs" x-description="Heroicon name: solid/search"
+                           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                           aria-hidden="true">
+                          <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                    <input type="text" class="form-control" name="{{ search_var }}" value="{{ cl.query }}" id="searchbar" placeholder="{% trans 'Search' %}">
                 </div>
-                <div class="col-md-2 px-md-1">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-fill btn-sm btn-primary">{% trans 'Search' %}</button>
-                    </div>
-                </div>
-                <div class="col-md-2 pl-md-1">
+                <div class="col-md-3 pl-md-1">
                     <div class="form-group">
                         {% if show_result_count %}
                             <span class="small quiet">
@@ -26,7 +28,9 @@
                                 {% blocktrans with full_result_count=cl.full_result_count %}
                                     {{ full_result_count }} total
                                 {% endblocktrans %}
-                            {% else %}{% trans "Show all" %}{% endif %}</a>)
+                            {% else %}
+                                {% trans "Show all" %}
+                            {% endif %}</a>)
                             </span>
                         {% endif %}
                         {% for pair in cl.params.items %}

@@ -1,17 +1,19 @@
 {% load i18n %}
-<div class="actions form-group {{ direction.panel }}">
+<div class="actions form-group">
     {% block actions %}
         {% block actions-form %}
             {% for field in action_form %}
-                {% if field.label %}<label>{{ field.label }}{% endif %}
+                {% if field.label %}<label>
+                    {# {{ field.label }} #}
+                {% endif %}
                 {{ field }}
                 {% if field.label %}</label>{% endif %}
             {% endfor %}
         {% endblock %}
         {% block actions-submit %}
-            <button type="submit" class="btn btn-fill btn-sm btn-primary" title="{% trans "Run the selected action" %}"
-                    name="index"
-                    value="{{ action_index|default:0 }}">{% trans "Go" %}</button>
+            <button type="submit" class="btn btn-fill btn-sm btn-primary" title="{% trans "Run the selected action" %}" name="index" value="{{ action_index|default:0 }}">
+                {% trans "Go" %}
+            </button>
         {% endblock %}
         {% block actions-counter %}
             {% if actions_selection_counter %}

@@ -29,7 +29,7 @@
 
 .selector-chosen h2 {
     margin-bottom: 0;
-    background: #e065cd;
+    background: #1f2937;
     color: #fff;
     font-size: 20px;
     padding: 8px;
@@ -37,7 +37,7 @@
 
 .selector .selector-available h2 {
     margin-bottom: 0;
-    background: #393f86;
+    background: #644f97;
     color: #fff;
     font-size: 20px;
     padding: 8px;
@@ -146,7 +146,7 @@ a.selector-chooseall, a.selector-clearall {
     overflow: hidden;
     font-weight: bold;
     line-height: 16px;
-    color: #cccccc;
+    /*color: #cccccc;*/
     text-decoration: none;
     opacity: 0.3;
 }
@@ -395,8 +395,8 @@ span.clearable-file-input label {
 }
 
 .calendar {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 .calendar table {
@@ -589,4 +589,62 @@ select + .related-widget-wrapper-link,
 
 .related-widget-wrapper .related-widget-wrapper-link {
     float: right;
+}
+
+.help{
+    font-size: 13px;
+    color: #0000007a;
+    margin: 5px 0 0 5px !important;
+}
+
+.help a {color: #6464ff;}
+
+.help ul {
+    margin-left: 15px !important;
+}
+
+.help li {
+    font-size: 13px !important;
+}
+
+/*.help-icon li {*/
+/*    font-size: 13px !important;*/
+/*    color: #0000007a !important;*/
+/*}*/
+
+.clockbox h2{
+    background-color: #1f2937;
+    color: white;
+    font-size: 23px;
+    padding: 6px;
+}
+
+.submit_btn{
+    background-color: #f2f4f6;
+    direction: rtl;
+    margin-top: 40px;
+}
+
+ul.errorlist {
+    margin: -25px 0 25px 0;
+    list-style-type: none;
+    color: #d96060;
+}
+
+.stacked_volt_card {
+    margin-bottom: 15px;
+}
+
+.stacked_volt_card fieldset {
+    padding: 17px;
+}
+
+.stacked_volt_card h3 {
+    background-color: #f2f4f6;
+}
+
+.original p.tabular_p_volt {
+    background-color: #f2f4f6;
+    padding: 3px;
+    border-radius: 5px 0 0 5px;
 }

@@ -36,7 +36,7 @@ except ImportError:
 
 
 default_apps_icon = {
-    'auth': 'tim-icons icon-single-02'
+    'auth': 'fa fa-users'
 }
 
 

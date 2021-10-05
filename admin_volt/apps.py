@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AdminBlackConfig(AppConfig):
-    name = 'admin_black'
-    icon = 'dash'
+class AdminVoltConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'admin_volt'
