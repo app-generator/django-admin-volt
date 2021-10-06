@@ -9,7 +9,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 **Links & Resources**
 
 - [Django Volt Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - Open-source starter that uses the same UI Kit
-- [Django Volt Dashboard - DEMO](https://django-volt-dashboard.appseed-srv1.com/login/?next=/) - LIVE Deployment
+- [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
 
 <br />
 
