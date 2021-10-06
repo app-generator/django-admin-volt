@@ -1,4 +1,9 @@
 
+## [0.0.3] 2021-10-06
+### Improvements
+
+- Update `README` with more information
+
 ## [0.0.2] 2021-10-06
 ### Release
 
