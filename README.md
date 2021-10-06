@@ -1,6 +1,6 @@
 # Django Admin Volt
 
-Modern template for **Django admin interface** coded on top of Volt Dashboard (free version) from **Themesberg**. Volt Dashboard is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 plugins with Vanilla JS.
+Modern template for **Django Admin Interface** coded on top of **[Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/)** (free version). Volt Dashboard is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 plugins with Vanilla JS.
 
 > Originally coded by [Iman Karimi](https://github.com/imankarimi), actively supported by [AppSeed](https://appseed.us/) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
@@ -16,7 +16,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 ## Why Django Admin Volt?
 
-- Bootstrap 5 Design: **Volt Dashboard** (Free version) provided by **Themesberg**
+- Bootstrap 5 Design: **[Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/)** (Free version) provided by **Themesberg**
 - New fresh look
 - Responsive mobile interface
 - Useful admin home page
