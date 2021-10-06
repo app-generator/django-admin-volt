@@ -29,7 +29,11 @@ Modern template for **Django Admin Interface** coded on top of **[Volt Dashboard
 
 <br>
 
-## Installation
+## How to use it
+
+<br />
+
+> Install the package via `PIP` 
 
 ```bash
 $ pip install django-admin-volt
@@ -37,7 +41,9 @@ $ pip install django-admin-volt
 $ pip install git+https://github.com/app-generator/django-admin-volt.git
 ```
 
-* Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
+<br />
+
+> Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
     INSTALLED_APPS = (
@@ -47,10 +53,11 @@ $ pip install git+https://github.com/app-generator/django-admin-volt.git
     )
 ```
 
+<br />
 
-* All programs you add in **INSTALLED_APPS** should look like this: **APP_NAME.apps.APP_NAMEConfig**.
+> All programs you add in **INSTALLED_APPS** should look like this: **APP_NAME.apps.APP_NAMEConfig**.
 
-> In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go **[here](https://fontawesome.com/v4.7/icons/)** to use more icons
+In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go **[here](https://fontawesome.com/v4.7/icons/)** to use more icons
 
 
 ```python
@@ -62,7 +69,9 @@ $ pip install git+https://github.com/app-generator/django-admin-volt.git
         icon = 'ICON_CLASS'  # for example: icon = 'fa fa-users'
 ```
 
-* Make sure ``django.template.context_processors.request`` context processor is enabled in settings.py (Django 1.8+ way):
+<br />
+
+> Make sure `django.template.context_processors.request` context processor is enabled in settings.py (Django 1.8+ way):
 
 ```python
 
@@ -93,13 +102,31 @@ $ pip install git+https://github.com/app-generator/django-admin-volt.git
     )
 ```
 
-* Collect static if you are in production environment:
+<br />
+
+> Collect static if you are in production environment:
 
 ```bash
 $ python manage.py collectstatic
 ```
 
-* Clear your browser cache
+<br />
+
+> Start the app
+
+```bash
+$ # Set up the database
+$ python manage.py makemigrations
+$ python manage.py migrate
+$
+$ # Create the superuser
+$ python manage.py createsuperuser
+$
+$ # Start the application (development mode)
+$ python manage.py runserver # default port 8000
+```
+
+Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 <br />
 
