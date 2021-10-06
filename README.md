@@ -37,7 +37,7 @@ $ pip install django-admin-volt
 $ pip install git+https://github.com/app-generator/django-admin-volt.git
 ```
 
-* Add 'admin_black' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
+* Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before 'django.contrib.admin'):
 
 ```python
     INSTALLED_APPS = (
