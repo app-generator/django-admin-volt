@@ -1,8 +1,8 @@
-# Django Admin volt
+# Django Admin Volt
 
-Modern template for **Django admin interface** coded on top of Volt Dashboard (free version) from **Themesberg**
+Modern template for **Django admin interface** coded on top of Volt Dashboard (free version) from **Themesberg**. Volt Dashboard is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 plugins with Vanilla JS.
 
-> Originally coded by [Iman Karimi](https://github.com/imankarimi), actively versioned and supported by [AppSeed](https://appseed.us/) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Service.
+> Originally coded by [Iman Karimi](https://github.com/imankarimi), actively supported by [AppSeed](https://appseed.us/) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br>
 
@@ -10,12 +10,13 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 - [Django Volt Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - Open-source starter that uses the same UI Kit
 - [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
+- More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed 
 
 <br />
 
 ## Why Django Admin Volt?
 
-- UI Kit: **Volt Dashboard** (Free version) provided by **Themesberg**
+- Bootstrap 5 Design: **Volt Dashboard** (Free version) provided by **Themesberg**
 - New fresh look
 - Responsive mobile interface
 - Useful admin home page
@@ -31,9 +32,9 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 ## Installation
 
 ```bash
+$ pip install django-admin-volt
+// OR
 $ pip install git+https://github.com/app-generator/django-admin-volt.git
-$ # or
-$ easy_install git+https://github.com/app-generator/django-admin-volt.git
 ```
 
 * Add 'admin_black' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
@@ -104,17 +105,7 @@ $ python manage.py collectstatic
 
 ## Screenshots
 
-![Django Admin Volt - Main Django Dashboard screen.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_1.png)
-
-<br>
-
-![Django Admin Volt - Add user screen.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_2.png)
-
-<br>
-
-![Django Admin Volt - Edit user permissions.](https://raw.githubusercontent.com/app-generator/django-admin-volt/main/screenshots/screen_shot_3.png)
-
-<br>
+![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png) 
 
 ---
-**Django Admin Volt** - Provided by **[AppSeed](https://appseed.us/)**
+**Django Admin Volt** - Provided by **AppSeed [App Generator](https://appseed.us/)**
