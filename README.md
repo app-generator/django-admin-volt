@@ -15,7 +15,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 ## Why Django Admin Volt?
 
-- UI Kit: **Volt Dashboard** (Free version) provided by **Themesberg**
+- Bootstrap 5 Design: **Volt Dashboard** (Free version) provided by **Themesberg**
 - New fresh look
 - Responsive mobile interface
 - Useful admin home page
@@ -31,9 +31,9 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 ## Installation
 
 ```bash
+$ pip install django-admin-volt
+// OR
 $ pip install git+https://github.com/app-generator/django-admin-volt.git
-$ # or
-$ easy_install git+https://github.com/app-generator/django-admin-volt.git
 ```
 
 * Add 'admin_black' application to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
