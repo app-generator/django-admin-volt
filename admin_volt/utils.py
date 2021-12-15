@@ -19,7 +19,7 @@ except ImportError:  # Django 1.11
     from django.urls import reverse, resolve, NoReverseMatch
 
 from django.contrib.admin import AdminSite
-from django.utils.encoding import smart_text
+# from django.utils.encoding import smart_text  # remove from django v4
 from django.utils.text import capfirst
 from django.contrib import messages
 from django.utils.encoding import force_text
@@ -164,10 +164,10 @@ class LazyDateTimeEncoder(json.JSONEncoder):
         return self.encode(obj)
 
 
-def get_model_instance_label(instance):
-    if getattr(instance, "related_label", None):
-        return instance.related_label()
-    return smart_text(instance)
+# def get_model_instance_label(instance):
+#     if getattr(instance, "related_label", None):
+#         return instance.related_label()
+#     return smart_text(instance)
 
 
 class SuccessMessageMixin(object):
