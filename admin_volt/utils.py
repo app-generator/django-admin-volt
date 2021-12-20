@@ -28,7 +28,7 @@ from django.utils.text import slugify
 try:
     from django.utils.translation import ugettext_lazy as _
 except ImportError:
-    from django.utils.translation import gettext_lazy as _  # Django 4.0.0>
+    from django.utils.translation import gettext_lazy as _  # Django 4.0.0 and more
 
 try:
     from collections import OrderedDict
