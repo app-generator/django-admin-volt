@@ -1,9 +1,15 @@
 
+## [0.0.5] 2021-12-20
+### Fixes
+
+- Update for Django 4
+  - Patch #4 - `cannot import name 'force_text' from` django.utils.encoding 
+
 ## [0.0.4] 2021-12-16
 ### Fixes
 
 - Update for Django 4
-  - Patch #3 - `cannot import name 'smart_text' from ` django.utils.encoding 
+  - Patch #3 - `cannot import name 'smart_text' from` django.utils.encoding 
 
 ## [0.0.3] 2021-10-06
 ### Improvements
