@@ -1,4 +1,13 @@
 
+## [0.0.6] 2022-09-19
+### Merge PRs
+
+- [PR #6](https://github.com/app-generator/django-admin-volt/pull/6): `fix admin url for view only permissions`
+- [PR #10](https://github.com/app-generator/django-admin-volt/pull/10): `make active current model in the navigation`
+- [PR #11](https://github.com/app-generator/django-admin-volt/pull/11): `added app list link to the breadcrumbs`
+- [PR #12](https://github.com/app-generator/django-admin-volt/pull/12): `update typo on placeholder login.html`
+
+
 ## [0.0.5] 2021-12-20
 ### Fixes
 
