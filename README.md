@@ -93,4 +93,4 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 <br />
 
 ---
-**[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Provided by **[AppSeed](https://appseed.us/)**
+**[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
