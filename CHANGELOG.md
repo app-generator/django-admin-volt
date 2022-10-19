@@ -1,4 +1,10 @@
 
+## [1.0.0] 2022-10-19
+### Improvements
+
+- Update DOCS
+- CleanUp README 
+
 ## [0.0.6] 2022-09-19
 ### Merge PRs
 

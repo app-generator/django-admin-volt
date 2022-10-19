@@ -1,27 +1,24 @@
-# Django Admin Volt
+# [Django Admin Volt](https://github.com/app-generator/django-admin-volt)
 
-Modern template for **Django Admin Interface** coded on top of **[Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/)** (free version). Volt Dashboard is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 plugins with Vanilla JS.
+Modern template for **Django Admin Interface** coded on top of **Volt Dashboard**, an open-source `Boostrap 5` design. 
 
-> Originally coded by [Iman Karimi](https://github.com/imankarimi), actively supported by [AppSeed](https://appseed.us/) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+> Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
 <br>
 
 **Links & Resources**
 
-- [Django Volt Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - Open-source starter that uses the same UI Kit
+- [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - free starter with the same design
 - [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
-- More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed 
 
 <br />
 
-## Why Django Admin Volt?
+## Why `Django Admin Volt`
 
-- Bootstrap 5 Design: **[Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/)** (Free version) provided by **Themesberg**
-- New fresh look
-- Responsive mobile interface
-- Useful admin home page
-- Minimal template overriding
-- Easy integration
+- Modern `Bootstrap 5` Design
+- `Responsive Interface`
+- `Minimal Template` overriding
+- `Easy integration`
 
 <br />
 
@@ -50,55 +47,6 @@ $ pip install git+https://github.com/app-generator/django-admin-volt.git
         ...
         'admin_volt.apps.AdminVoltConfig',
         'django.contrib.admin',
-    )
-```
-
-<br />
-
-> All programs you add in **INSTALLED_APPS** should look like this: **APP_NAME.apps.APP_NAMEConfig**.
-
-In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go **[here](https://fontawesome.com/v4.7/icons/)** to use more icons
-
-
-```python
-
-    from django.apps import AppConfig
-
-    class APP_NAMEConfig(AppConfig):
-        name = 'APP_NAME'
-        icon = 'ICON_CLASS'  # for example: icon = 'fa fa-users'
-```
-
-<br />
-
-> Make sure `django.template.context_processors.request` context processor is enabled in settings.py (Django 1.8+ way):
-
-```python
-
-    TEMPLATES = [
-        {
-            'BACKEND': 'django.template.backends.django.DjangoTemplates',
-            'DIRS': [],
-            'APP_DIRS': True,
-            'OPTIONS': {
-                'context_processors': [
-                    ...
-                    'django.template.context_processors.request',
-                    ...
-                ],
-            },
-        },
-    ]
-```
-
-:warning: **Warning!!**
-* Before Django 1.8 you should specify context processors different way. Also use ``django.core.context_processors.request`` instead of ``django.template.context_processors.request``.
-
-```python
-    from django.conf import global_settings
-
-    TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
-        'django.core.context_processors.request',
     )
 ```
 
@@ -134,5 +82,7 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png) 
 
+<br />
+
 ---
-**Django Admin Volt** - Provided by **AppSeed [App Generator](https://appseed.us/)**
+**[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Provided by **[AppSeed](https://appseed.us/)**
