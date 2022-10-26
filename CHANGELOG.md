@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.3] 2022-10-26
+### Improvements
+
+- JS `maps` CleanUP by [Azeem Afzal](https://github.com/divergentsigns)
+
 ## [1.0.2] 2022-10-26
 ### Improvements
 
