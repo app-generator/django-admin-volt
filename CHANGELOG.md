@@ -4,7 +4,7 @@
 ### Improvements
 
 - Remove `maps` files from Popper 
-  - Pached by [Azeem Afzal](https://github.com/divergentsigns)
+  - Patched by [Azeem Afzal](https://github.com/divergentsigns)
 
 ## [1.0.1] 2022-10-19
 ### Improvements
