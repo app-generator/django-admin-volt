@@ -11,6 +11,10 @@ Modern template for **Django Admin Interface** coded on top of **Volt Dashboard*
 - [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - free starter with the same design
 - [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
 
+<br>
+
+![Django Admin Volt - Open-source Boostrap 5 Design (mobile view).](https://user-images.githubusercontent.com/51070104/196727476-d12f8ddc-4b41-412b-9b95-df3ee3c01ad4.png)
+
 <br />
 
 ## Why `Django Admin Volt`
@@ -19,10 +23,6 @@ Modern template for **Django Admin Interface** coded on top of **Volt Dashboard*
 - `Responsive Interface`
 - `Minimal Template` overriding
 - `Easy integration`
-
-<br>
-
-![Django Admin Volt - Open-source Boostrap 5 Design (mobile view).](https://user-images.githubusercontent.com/51070104/196727476-d12f8ddc-4b41-412b-9b95-df3ee3c01ad4.png)
 
 <br>
 
