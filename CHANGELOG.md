@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.6] 2023-01-23
+### Changes
+
+- Links Curation (all pages)
+- DOCS Update (minor)
+
 ## [1.0.5] 2023-01-23
 ### Changes
 
