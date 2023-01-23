@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [1.0.5] 2023-01-23
+### Changes
+
+- Bump UI Version `v1.4.1`
+- KIT is fully integrated:
+  - Django.contrib.AUTH (all actions)
+  - Registration
+  - All Kit Pages
+
 ## [1.0.4] 2022-11-18
 ### PROMO
 

@@ -6,10 +6,6 @@ Modern template for **Django Admin Interface** coded on top of **Volt Dashboard*
 
 <br>
 
-> UI Kit: https://github.com/themesberg/volt-bootstrap-5-dashboard
-
-<br>
-
 **Links & Resources**
 
 - [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - free starter with the same design
