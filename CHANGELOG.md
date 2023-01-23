@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.8] 2023-01-23
+### Changes
+
+- Links Update (minor)
+
 ## [1.0.7] 2023-01-23
 ### Changes
 
