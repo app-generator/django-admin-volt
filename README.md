@@ -148,7 +148,7 @@ For instance, if we want to customize the `footer.html` these are the steps:
 - `Step 2`: configure the project to use this new template directory
   - Edit `settings.py` TEMPLATES section 
 - `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `YOUR_APP/templates` DIR
-  - Source PATH: `<YOUR_ENV>/LIB/admin_volt/includes/footer.html`
+  - Source PATH: `<YOUR_ENV>/LIB/admin_volt/templates/includes/footer.html`
   - Destination PATH: `YOUR_APP/templates/includes/footer.html`
 - Edit the `footer.html` (Destination PATH)     
 
