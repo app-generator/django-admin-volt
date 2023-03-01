@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.10] 2023-03-01
+### Changes
+
+- Fix #17 - `TabularInline, StackedInline add and delete buttons don't work`
+  - patched by [Vitalii Rybalko](https://github.com/vilkoz)
+
 ## [1.0.9] 2023-01-31
 ### Changes
 
