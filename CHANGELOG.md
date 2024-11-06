@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.13] 2024-11-06
+### Changes
+
+- Added [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) Link
+
 ## [1.0.12] 2024-11-06
 ### Changes
 
