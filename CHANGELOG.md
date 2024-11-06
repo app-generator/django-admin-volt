@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.12] 2024-11-06
+### Changes
+
+- Update [Django Admmin Volt - Documentation](https://app-generator.dev/docs/products/django-libs/theme-volt.html) Link
+- Update [Django Admmin Volt - Sample Product](https://app-generator.dev/product/volt-dashboard/django/) Link
+
 ## [1.0.11] 2024-09-16
 ### Changes
 
