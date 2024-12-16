@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.14] 2024-12-16
+### Changes
+
+- Mention [Django App Generator - Volt Design](https://app-generator.dev/tools/django-generator/volt/)
+
 ## [1.0.13] 2024-11-06
 ### Changes
 
