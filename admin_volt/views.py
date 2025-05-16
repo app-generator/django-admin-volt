@@ -17,7 +17,6 @@ def dashboard(request):
   return render(request, 'pages/dashboard/dashboard.html', context)
 
 # Pages
-@login_required(login_url="/accounts/login/")
 def transaction(request):
   context = {
     'segment': 'transactions'
@@ -32,7 +31,6 @@ def settings(request):
   return render(request, 'pages/settings.html', context)
 
 # Tables
-@login_required(login_url="/accounts/login/")
 def bs_tables(request):
   context = {
     'parent': 'tables',
@@ -41,7 +39,6 @@ def bs_tables(request):
   return render(request, 'pages/tables/bootstrap-tables.html', context)
 
 # Components
-@login_required(login_url="/accounts/login/")
 def buttons(request):
   context = {
     'parent': 'components',
@@ -49,7 +46,6 @@ def buttons(request):
   }
   return render(request, 'pages/components/buttons.html', context)
 
-@login_required(login_url="/accounts/login/")
 def notifications(request):
   context = {
     'parent': 'components',
@@ -57,7 +53,6 @@ def notifications(request):
   }
   return render(request, 'pages/components/notifications.html', context)
 
-@login_required(login_url="/accounts/login/")
 def forms(request):
   context = {
     'parent': 'components',
@@ -65,7 +60,6 @@ def forms(request):
   }
   return render(request, 'pages/components/forms.html', context)
 
-@login_required(login_url="/accounts/login/")
 def modals(request):
   context = {
     'parent': 'components',
@@ -73,7 +67,6 @@ def modals(request):
   }
   return render(request, 'pages/components/modals.html', context)
 
-@login_required(login_url="/accounts/login/")
 def typography(request):
   context = {
     'parent': 'components',

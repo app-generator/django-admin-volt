@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.17] 2025-05-16
+### Changes
+
+- Fix Sidebar Links
+- Remove `login` decorator for UI Kit Pages
+
 ## [1.0.16] 2025-05-16
 ### Changes
 
