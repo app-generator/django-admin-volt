@@ -1,6 +1,6 @@
-# [Django Admin Volt](https://app-generator.dev/docs/products/django-libs/theme-volt.html)
+# [Volt Dashboard](https://app-generator.dev/product/volt-dashboard/) Django Integration
 
-Modern template for **Django Admin**, Auth Pages (registration included) crafted on top of **Volt Dashboard**, an open-source **Bootstrap 5** design.
+Modern template for **Django** built with **[Volt Dashboard](https://app-generator.dev/product/volt-dashboard/)**, an open-source `Bootstrap` UI Kit released by [Themesberg](https://app-generator.dev/agency/themesberg/).
 
 - [Django Admin Volt](https://app-generator.dev/docs/products/django-libs/theme-volt.html) - Documentation & Support Links
 - [Django Volt Dashboard](https://app-generator.dev/product/volt-dashboard/django/) - The product that uses the library
@@ -8,9 +8,9 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 
 <br />
 
-## **Features**
+## Features
 
-- Design: Volt Dashboard Bootstrap 5
+- [Volt Dashboard](https://app-generator.dev/product/volt-dashboard/) Design Integration
 - **Sections Covered**: 
   - `Admin Section`, reserved for `superusers`
   - `All pages` managed by `Django.contrib.AUTH`
@@ -19,10 +19,68 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
   
 <br />
 
-### Build a Starter with [Django App Generator - Volt Design](https://app-generator.dev/tools/django-generator/volt/)
+## [Volt Dashboard](https://app-generator.dev/product/volt-dashboard/) Starters
+
+Pre-built starters for coding dashboards and services (APIs, DataTables) with speed.
+
+### [Django Volt Dashboard](https://app-generator.dev/product/volt-dashboard/django/)
+
+> The FREE Version (MIT License) - [Live Demo](https://django-volt.onrender.com).
+
+- Simple, Easy-to-Extend codebase
+- [Volt Dashboard](https://app-generator.dev/product/volt-dashboard/) 
+- [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
+- Dynamic Tables 
+- Dynamic API 
+- Charts
+- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+    - [Commit/rollback Git Changes](https://app-generator.dev/docs/developer-tools/django-cli/git-interface.html)
+    - `Backup & restore DB`
+    - [Interact with Django Core](https://app-generator.dev/docs/developer-tools/django-cli/query-django.html)
+    - `Manage Environment`
+    - `Manage Dependencies`
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker, CI/CD for Render
+- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
+
+![Django Volt Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/dba1a100-3309-400c-99bc-6ba707697509)
+
+<br />
+
+### [Django Volt Dashboard PRO](https://app-generator.dev/product/volt-dashboard-pro/django/)
+
+> The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-volt-dashboard-pro.onrender.com/dashboard/).
+
+- Simple, Easy-to-Extend Codebase
+- [Volt Dashboard](https://app-generator.dev/product/volt-dashboard/) PRO Design Integration 
+- Bootstrap Styling 
+- Dynamic Tables
+- Dynamic API
+- Charts
+- React Integration
+- Session-based Authentication, Password recovery
+- OAuth (GitHub & Google)
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+    - Commit/rollback Git Changes
+    - Backup & restore DB
+    - Interact with Django Core
+    - Manage Environment
+    - Manage Dependencies
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker, CI/CD for Render
+- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
+
+![Django Volt Dashboard PRO - Premium starter crafted by App-Generator.](https://github.com/user-attachments/assets/5fcc4dbd-4c1a-461d-a01e-0c3903b0b5ae)
+
+<br />
+
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select **Volt Dashboard** as the preferred design
+- Select the preferred design
 - (Optional) Design Database: edit models and fields
 - (Optional) Edit the fields for the extended user model
 - (Optional) Enable OAuth for GitHub
@@ -33,29 +91,11 @@ Modern template for **Django Admin**, Auth Pages (registration included) crafted
 
 **The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
 
-<br />
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
 
-![Django Admin Volt - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://user-images.githubusercontent.com/51070104/168843604-b026fd94-5969-4be7-81ac-5887cf0958e5.png)
-
-<br />
-
-## [Volt Dashboard PRO Version](https://app-generator.dev/product/volt-dashboard-pro/django/)
-
-> The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-volt-dashboard-pro.onrender.com).
-
-- **Simple, Easy-to-Extend** Codebase
-- **Volt Dashboard** Design - PRO Version
-- Bootstrap 5 CSS
-- **OAuth** - Github
-- **Extended User Profile**
-- **API** via DRF 
-- **Charts** via ApexJS 
-- **Celery** (async tasks)
-- **Deployment-Ready** for Render 
-
-![Django Volt Dashboard - Premium Full-Stack Starter powered by Django, and Bootstrap 5 - Actively supported by App-Generator](https://github.com/user-attachments/assets/d24feda4-e4ff-4348-b335-429230dd7815)
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
 
 <br />
 
 ---
-**[Django Admin Volt](https://app-generator.dev/docs/products/django-libs/theme-volt.html)** - Modern Django Admin Interface provided by **[App-Generator](https://app-generator.dev)**
+**[Volt Dashboard](https://app-generator.dev/product/volt-dashboard/)** Django Integration - Library provided by **[App-Generator](https://app-generator.dev)**.

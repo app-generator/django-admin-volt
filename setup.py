@@ -8,15 +8,15 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='django-admin-volt',
-version='1.0.14',
+version='1.0.15',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
-description='Modern template for Django Admin - Volt Bootstrap 5 Design',
+description='Modern template for Django Admin - Volt Dashboard Design',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://app-generator.dev/docs/products/django-libs/theme-volt.html',
-author='AppSeed.us',
+url='https://app-generator.dev/product/volt-dashboard/',
+author='App-Generator.dev',
 author_email='support@appseed.us',
 license='MIT License',
 classifiers=[
