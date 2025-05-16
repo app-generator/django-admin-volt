@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.16] 2025-05-16
+### Changes
+
+- Update Sidebar Links
+
 ## [1.0.15] 2025-05-16
 ### Changes
 
